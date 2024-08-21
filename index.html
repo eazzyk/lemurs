@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,7 @@
     <header class="header">
       <div class="container">
         <div class="header__content--box">
-          <a href="./"><img src="/img/logo.png" alt="" /></a>
+          <a href="./"><img src="./img/logo.png" alt="" /></a>
           <nav>
             <ul class="nav__list">
               <li class="nav__list--item"><a href="./">Главная</a></li>
@@ -22,9 +22,8 @@
               <li class="nav__list--item"><a href="#">Новый пункт</a></li>
             </ul>
           </nav>
-          <!-- <div class="search-container"> -->
           <div class="search__box">
-            <input type="search" id="search" />
+            <input class="search__input" type="search" id="search" />
             <button class="search__icon" type="submit">
               <img
                 src="./img/search-icon.png"
@@ -33,7 +32,6 @@
                 height="18"
               />
             </button>
-            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -69,7 +67,7 @@
               width="605"
             />
             <h2>Заглавие новости</h2>
-            <p>
+            <p class="main__content--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
               ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -82,7 +80,7 @@
               aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
               viverra maecenas accumsan lacus vel facilisis.
             </p>
-            <p>
+            <p class="main__content--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
               ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -95,7 +93,7 @@
               aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
               viverra maecenas accumsan lacus vel facilisis.
             </p>
-            <p>
+            <p class="main__content--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
               ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -165,20 +163,84 @@
             </ul> -->
           </div>
           <div class="main__content--right-box">
-            <div class="main__stats--box">
-              <ul class="main__editors--list">
+            <div class="stats__box">
+              <ul class="editors__list">
                 <li>
-                  <a href=""
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Debitis velit, earum ipsam ipsa dolore adipisci ipsum fugit
-                    voluptatibus, in quidem deserunt corrupti mollitia
-                    laboriosam. Delectus accusamus debitis eum odit aperiam.</a
-                  >
+                  <div class="editors__card">
+                    <a class="editors__ava--link" href="#">
+                      <img
+                        src="./img/ava.jpg"
+                        alt="Аватарка редактора"
+                        class="editors__ava"
+                        width="107"
+                        height="107"
+                    /></a>
+
+                    <div class="editors__text">
+                      <a class="editors__name--link">Лемур Владиславович</a>
+                      <p class="editors__descr">
+                        Выложил 100500 постов Главный редактор
+                      </p>
+                    </div>
+                  </div>
                 </li>
-                <li><a href="">11</a></li>
-                <li><a href="">11</a></li>
-                <li><a href="">11</a></li>
-                <li><a href="">11</a></li>
+                <li>
+                  <div class="editors__card">
+                    <a class="editors__ava--link" href="#">
+                      <img
+                        src="./img/ava.jpg"
+                        alt="Аватарка редактора"
+                        class="editors__ava"
+                        width="107"
+                        height="107"
+                    /></a>
+
+                    <div class="editors__text">
+                      <a class="editors__name--link">Лемур Владиславович</a>
+                      <p class="editors__descr">
+                        Выложил 100500 постов Главный редактор
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="editors__card">
+                    <a class="editors__ava--link" href="#">
+                      <img
+                        src="./img/ava.jpg"
+                        alt="Аватарка редактора"
+                        class="editors__ava"
+                        width="107"
+                        height="107"
+                    /></a>
+
+                    <div class="editors__text">
+                      <a class="editors__name--link">Лемур Владиславович</a>
+                      <p class="editors__descr">
+                        Выложил 100500 постов Главный редактор
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="editors__card">
+                    <a class="editors__ava--link" href="#">
+                      <img
+                        src="./img/ava.jpg"
+                        alt="Аватарка редактора"
+                        class="editors__ava"
+                        width="107"
+                        height="107"
+                    /></a>
+
+                    <div class="editors__text">
+                      <a class="editors__name--link">Лемур Владиславович</a>
+                      <p class="editors__descr">
+                        Выложил 100500 постов Главный редактор
+                      </p>
+                    </div>
+                  </div>
+                </li>
               </ul>
               <a href="#">
                 <img src="./img/banner.jpg" alt="Банер" />
